@@ -1,19 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Navbar from "./Navbar/Navbar";
-
+import Daisynav from "./components/DaisyNav/Daisynav";
+import Navbar from "./components/Navbar/Navbar";
 function App() {
-  
-  return <>
+  return (
+    <>  
    
-  <Navbar> </Navbar>
-  
-   <h2>Vite+react=love</h2>
-  
-  
-  </>;
+     <Daisynav></Daisynav>
+    <Navbar></Navbar>
+
+   
+    </>
+  );
 }
 
 export default App;
